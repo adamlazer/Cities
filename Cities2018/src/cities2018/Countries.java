@@ -65,11 +65,13 @@ public class Countries {
    
     public static void main(String[] args){
         Countries c = new Countries();
+        Cities a = new Cities();
         System.out.println(c);
         System.out.println(c.capitals());
         System.out.println(c.sortedCountries());
         System.out.println(c.sortedCapitals());
         System.out.println(c.sortedByCountries());
         System.out.println(c.sortedByCapitals());
+        System.out.println(a.provinces);
     }
 }
