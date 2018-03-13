@@ -7,6 +7,7 @@ package cities2018;
 
 import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.Collection;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
@@ -26,6 +27,22 @@ public Cities()
     List<String> list2 = Arrays.asList("Gdansk","Sopot","Gdynia");
     provinces.put("Pomorskie",list2);
  
+}
+public Collection<String> provinces()
+{
+   return provinces.keySet();
+}
+public List<String> cities(String province)
+{
+ return provinces.get(province);
+}
+public Map<String,String> provinceWithOneCity()
+{
+    return null;
+}
+public Collection<String> cities()
+{
+    return null;
 }
 }
 
